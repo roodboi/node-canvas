@@ -4,7 +4,7 @@
   "description": "",
   "main": "resemble.js",
   "scripts": {
-    "test": "node resemble.js"
+    "test": "node -v"
   },
   "repository": {
     "type": "git",

@@ -12,5 +12,3 @@ COPY . /opt/node/js
 
 RUN npm install canvas --global --unsafe-perm exp
 RUN npm install
-
-CMD ["npm", "run", "test"]
