@@ -9,3 +9,4 @@ RUN mkdir -p /opt/node/js \
 
 WORKDIR /opt/node/js
 COPY . /opt/node/js
+
