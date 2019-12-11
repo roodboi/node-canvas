@@ -10,3 +10,7 @@ RUN mkdir -p /opt/node/js \
 WORKDIR /opt/node/js
 COPY . /opt/node/js
 
+RUN npm install canvas --global --unsafe-perm exp
+RUN npm install
+
+CMD ["npm", "run", "test"]
